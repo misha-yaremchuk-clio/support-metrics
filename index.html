@@ -2225,6 +2225,76 @@
                 text-align: center;
             }
         }
+
+        /* Search Bar */
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            position: relative;
+            z-index: 100;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 16px 24px;
+            font-size: 16px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 99px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 4px 20px rgba(0, 113, 227, 0.15);
+        }
+
+        .search-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 24px;
+            right: 24px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            margin-top: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .search-suggestion-item {
+            padding: 12px 20px;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .search-suggestion-item:last-child {
+            border-bottom: none;
+        }
+
+        .search-suggestion-item:hover {
+            background: #f5f5f7;
+        }
+
+        .suggestion-match {
+            font-weight: 600;
+            color: var(--accent-blue);
+        }
+
+        .suggestion-count {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            background: rgba(0, 0, 0, 0.05);
+            padding: 2px 8px;
+            border-radius: 99px;
+            margin-left: 8px;
+        }
     </style>
 </head>
 
@@ -2273,6 +2343,14 @@
             <h1>Swarm Analytics</h1>
             <p>Support Intelligence Dashboard</p>
         </header>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="expertSearch" class="search-input"
+                placeholder="Search swarms (e.g. 'rounding decimal'...)" autocomplete="off">
+            <div id="searchSuggestions" class="search-suggestions"></div>
+        </div>
+
 
         <!-- Key Metric Banner -->
         <div class="key-metric">
@@ -2642,7 +2720,164 @@
 
     <script>
         // Load data from external JSON file
+        // Initialize globally
+        let allSwarmData = [];
+        let filteredSwarmData = [];
+        // swarmData alias for backward compatibility (pointing to filtered)
         let swarmData = [];
+        let consultsData = [];
+        let globalEscData = null; // Store for re-rendering logic
+
+        let dailyChartInstance;
+        let scatterChartInstance;
+        let heatmapChartInstance;
+        let categoryChartInstance;
+        let sentimentChartInstance;
+        let resolutionChartInstance;
+        let solvabilityChartInstance;
+
+        // Search Logic
+        const expertSearch = document.getElementById('expertSearch');
+        const searchSuggestions = document.getElementById('searchSuggestions');
+        let searchIndex = {}; // word -> count
+
+        if (expertSearch) {
+            expertSearch.addEventListener('input', (e) => {
+                const val = e.target.value;
+                handleSearch(val);
+                showSuggestions(val);
+            });
+
+            expertSearch.addEventListener('focus', () => {
+                if (expertSearch.value) showSuggestions(expertSearch.value);
+            });
+        }
+
+        document.addEventListener('click', (e) => {
+            if (expertSearch && !expertSearch.contains(e.target) && searchSuggestions && !searchSuggestions.contains(e.target)) {
+                searchSuggestions.style.display = 'none';
+            }
+        });
+
+        function buildSearchIndex(data) {
+            searchIndex = {};
+            data.forEach(s => {
+                const text = [
+                    s.issue_description_brief || '',
+                    s.reason_for_help_needed || '',
+                    s.solution_provided || '',
+                    s.category || '',
+                    s.subcategory || ''
+                ].join(' ').toLowerCase();
+
+                // Tokenize
+                const tokens = text.split(/[\s,.;()\[\]"']+/).filter(t => t.length > 2 && !['the', 'and', 'for', 'was', 'with', 'that'].includes(t));
+                tokens.forEach(t => {
+                    searchIndex[t] = (searchIndex[t] || 0) + 1;
+                });
+            });
+        }
+
+        function handleSearch(query) {
+            if (!query || query.trim() === '') {
+                filteredSwarmData = [...allSwarmData];
+            } else {
+                const terms = query.toLowerCase().split(/\s+/).filter(t => t.length > 0);
+                filteredSwarmData = allSwarmData.filter(s => {
+                    const text = [
+                        s.issue_description_brief || '',
+                        s.reason_for_help_needed || '',
+                        s.solution_provided || '',
+                        s.category || '',
+                        s.subcategory || '',
+                        s.case_number || '',
+                        String(s.swarm_number || '')
+                    ].join(' ').toLowerCase();
+
+                    // AND logic: all terms must be present
+                    return terms.every(term => text.includes(term));
+                });
+            }
+
+            // Update global alias
+            swarmData = filteredSwarmData;
+
+            // Re-process
+            // Update Scatter Chart filters and Daily Chart logic
+            if (typeof activeScatterCategories !== 'undefined' && typeof scatterGroupBy !== 'undefined') {
+                try {
+                    const items = [...new Set(filteredSwarmData.map(d => d[typeof scatterGroupBy !== 'undefined' ? scatterGroupBy : 'category']).filter(Boolean))].sort();
+                    if (activeScatterCategories) {
+                        activeScatterCategories.clear();
+                        items.forEach(i => activeScatterCategories.add(i));
+                    }
+
+                    if (typeof buildScatterCategoryFilters === 'function') {
+                        buildScatterCategoryFilters();
+                    }
+                } catch (e) {
+                    console.warn("Error updating scatter filters", e);
+                }
+            }
+
+            processData(filteredSwarmData);
+
+            // Re-render Daily Chart (including scatter overlay)
+            if (typeof updateDailyChart === 'function') {
+                updateDailyChart();
+            }
+
+            // Re-render escalation section if data exists
+            if (globalEscData) {
+                renderEscalationSection(globalEscData, filteredSwarmData);
+            }
+        }
+
+        function showSuggestions(val) {
+            if (!val || val.trim() === '') {
+                searchSuggestions.style.display = 'none';
+                return;
+            }
+
+            const lastWord = val.split(/\s+/).pop().toLowerCase();
+            if (lastWord.length < 2) {
+                searchSuggestions.style.display = 'none';
+                return;
+            }
+
+            // Find matches in index
+            const matches = Object.keys(searchIndex)
+                .filter(word => word.startsWith(lastWord))
+                .sort((a, b) => searchIndex[b] - searchIndex[a]) // Sort by freq
+                .slice(0, 5);
+
+            if (matches.length === 0) {
+                searchSuggestions.style.display = 'none';
+                return;
+            }
+
+            searchSuggestions.innerHTML = matches.map(word => {
+                const count = searchIndex[word];
+                return `<div class="search-suggestion-item" onclick="applySuggestion('${word}')">
+                    <span>${word}</span>
+                    <span class="suggestion-count">${count}</span>
+                </div>`;
+            }).join('');
+
+            searchSuggestions.style.display = 'block';
+        }
+
+        window.applySuggestion = function (word) {
+            const currentVal = expertSearch.value;
+            const parts = currentVal.trim().split(/\s+/);
+            parts.pop(); // Remove partial word
+            parts.push(word);
+            const newVal = parts.join(' ') + ' ';
+            expertSearch.value = newVal;
+            handleSearch(newVal);
+            expertSearch.focus();
+            searchSuggestions.style.display = 'none';
+        }
 
         Chart.defaults.font.family = "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
         Chart.defaults.color = '#86868b';
@@ -5609,11 +5844,16 @@
                     })
                 ]);
 
-                swarmData = swarms;
+                allSwarmData = swarms;
+                filteredSwarmData = swarms;
+                swarmData = swarms; // alias
                 consultsData = consults;
 
+                // Build index for search
+                buildSearchIndex(allSwarmData);
+
                 buildScatterCategoryFilters();
-                processData(swarmData);
+                processData(filteredSwarmData);
 
                 if (dailyMetricsText) {
                     processDailyMetrics(dailyMetricsText, notebookMetricsText);
@@ -5622,7 +5862,8 @@
                 // Load and render escalation data
                 try {
                     const escData = await fetch('escalation-data.json').then(r => r.json());
-                    renderEscalationSection(escData, swarmData);
+                    globalEscData = escData; // Store for search re-render
+                    renderEscalationSection(escData, filteredSwarmData);
                 } catch (err) {
                     console.warn('Could not load escalation-data.json', err);
                 }
