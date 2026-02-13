@@ -221,7 +221,7 @@
     "solution_provided": "Confirmed customer is ineligible because surcharging is currently US-only.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Surcharging eligibility by region is a documented policy the notebook can readily identify.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Joan Orji",
@@ -2064,7 +2064,7 @@
     "solution_provided": "Ineligible; customer is using LawPay, not Clio Payments. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Documentation clearly states surcharging is exclusive to Clio Payments users. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Adrian Bermudez",
@@ -5431,7 +5431,7 @@
     "solution_provided": "Confirmed ineligibility due to Massachusetts state law prohibiting the practice.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Surcharging restrictions for specific states (like MA) are clearly documented policy.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Abraham Emokpare",
@@ -17929,7 +17929,7 @@
     "solution_provided": "CX is on LawPay; advised to reach out to LawPay directly for surcharge enablement.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard procedure for LawPay-integrated firms requesting surcharging is documented.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Payouts & Fee Schedules",
     "specialist_asking": "Simone Rocha",
@@ -19281,7 +19281,7 @@
     "solution_provided": "Confirmed surcharging is currently unavailable for Canadian users. Provided churn handoff instructions.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Regional availability of surcharging (US-only) is clearly documented.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Payouts & Fee Schedules",
     "specialist_asking": "Abigail Chibuogwu",
@@ -19840,7 +19840,7 @@
     "solution_time": "12:09 PM",
     "solution_date": "2025-12-15",
     "outside_hours": "Y",
-    "issue_description_brief": "Trial user unable to log in; error 'Action required – your quote has expired.'",
+    "issue_description_brief": "Trial user unable to log in; error 'Action required \u2013 your quote has expired.'",
     "reason_for_help_needed": "Requires reactivation of trial and investigation into expired billing quote.",
     "solution_provided": "Resolved by Sales/Account Management team.",
     "notebook_solve_end_to_end": "No",
@@ -23677,7 +23677,7 @@
     "solution_provided": "Directed to send the customer to phones as per chat exceptions for surcharging.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook identifies the mandatory phone-based verbal confirmation requirement for surcharging.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Pratiksha Soneji",
@@ -25484,7 +25484,7 @@
     "solution_provided": "Cody McNorton confirmed the feature is already enabled for the firm, but they must manually toggle it on in settings.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook explains that even after backend enablement, the firm must enable the toggle in 'Online Payments' settings.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Ahmed Mansoory",
@@ -26303,7 +26303,7 @@
     "solution_provided": "Specialist successfully de-escalated the customer by explaining report generation and fee schedules; customer decided to continue with CP and no surcharging. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook contains standard talk tracks for processing fees and instructions for generating deposit reports. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Habibat Buhari",
@@ -27591,7 +27591,7 @@
     "solution_provided": "Confirmed not eligible because they are on LawPay; instructed to route to AM as a CSQL. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook identifies that LawPay users are ineligible for Clio Payments surcharging and describes the CSQL process. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Jadesola Sokunbi",
@@ -29696,7 +29696,7 @@
     "solution_provided": "Nick Apps confirmed that firms physically located in Canada are ineligible for surcharging at this time. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook identifies that surcharging is currently restricted to US-based firms only. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Christie Wong",
@@ -31351,7 +31351,7 @@
     "solution_provided": "ACH is denied (requires 6 months history); Surcharging is approved as they are in the US and on standard pricing.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Notebook contains the specific rules for ACH eligibility (6 months processing) and surcharging requirements.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Spurthy Yellarapu",
@@ -38255,7 +38255,7 @@
     "solution_provided": "Confirmed 60-day promo expired Nov 25. Enabled surcharging for future credit card payments but denied refund for the Dec 15 debit card payment as debit cannot be surcharged. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Notebook defines that debit cards cannot be surcharged per card network rules, which was the core reason for the refund denial. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Disputes/Chargebacks",
     "specialist_asking": "Anju Kuriakose",
@@ -41744,7 +41744,7 @@
     "solution_provided": "Firm is located in Canada and is therefore ineligible for surcharging.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook explicitly mentions that surcharging is currently restricted to US-based firms.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Yetunde Bodunde",
@@ -53162,7 +53162,7 @@
     "solution_provided": "Confirmed eligibility. Explained surcharging is global and cannot be restricted/excluded for specific clients or matters once enabled.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Notebook identifies that surcharging applies to all credit card payments account-wide and does not support client-level exclusion.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Payouts & Fee Schedules",
     "specialist_asking": "Andre Adedoyin",
@@ -59157,7 +59157,7 @@
     "solution_provided": "Nick Apps confirmed customers must call in for a live assessment before enabling surcharging. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook states that surcharging enablement is a phone-only workflow requiring a live talk track. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Audrana Esho",
@@ -72947,7 +72947,7 @@
     "solution_provided": "Marie Marasigan confirmed LawPay users are ineligible and identified it as a cross-sell opportunity for Clio Payments.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook confirms that surcharging is a feature of Clio Payments and not available for legacy LawPay connections.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Sienna Guo",
@@ -78158,7 +78158,7 @@
     "solution_provided": "Solutions confirmed surcharging cannot be disabled selectively for Trust and that Clio only displays card brands, not types (Debit vs Credit). ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Notebook identifies that surcharging is a global setting that applies to all credit card payments and explains the lack of card-type differentiation in standard reports. ",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Processing Cards/eChecks",
     "specialist_asking": "Spurthy Yellarapu",
@@ -79102,7 +79102,7 @@
     "solution_time": "11:56 AM",
     "solution_date": "2026-01-13",
     "outside_hours": "Y",
-    "issue_description_brief": "Cx is saying a direct debit taken on 6th January for £109.66 with reference TCT8ZWM7VBTNN0GST3. ",
+    "issue_description_brief": "Cx is saying a direct debit taken on 6th January for \u00a3109.66 with reference TCT8ZWM7VBTNN0GST3. ",
     "reason_for_help_needed": "Specialist needs identifying the source of a direct debit charge and obtaining an invoice. ",
     "solution_provided": "Helper identified the charge was likely related to Clio Payments processing rather than a subscription, for which Clio does not issue invoices. ",
     "notebook_solve_end_to_end": "Yes",
@@ -79848,7 +79848,7 @@
     "solution_date": "2026-01-08",
     "outside_hours": "Y",
     "issue_description_brief": "Cx received an email on failed credit card, yet they do not have an outstanding payment. ",
-    "reason_for_help_needed": "Specialist needs clarifying a specific €115.95 charge that occurred outside the expected billing cycle. ",
+    "reason_for_help_needed": "Specialist needs clarifying a specific \u20ac115.95 charge that occurred outside the expected billing cycle. ",
     "solution_provided": "Helper advised specialist to check with the Subscription Services team to identify the source of the billing charge. ",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "N/A",
@@ -80809,7 +80809,7 @@
     "solution_provided": "Firm is eligible but high GPV; case handed off to the Solutions team for follow-up.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks and the requirement to hand off high GPV accounts to Solutions are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Pratiksha Soneji",
@@ -81277,7 +81277,7 @@
     "solution_provided": "Firm is eligible but high GPV; case handed off to the Solutions team for follow-up.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks and the requirement to hand off high GPV accounts to Solutions are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Anju Kuriakose",
@@ -81435,7 +81435,7 @@
     "solution_provided": "Confirmed firm is eligible. Clarified that only the MasterCard disclosure form is required (which must be done 30 days in advance). Submitted surcharging request.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook correctly identifies the surcharging requirements, including the MasterCard disclosure and the lack of a separate 'Visa' requirement for the customer.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Edwina Animashaun",
@@ -81757,7 +81757,7 @@
     "solution_provided": "Confirmed firm is eligible. Specialist went through the talk tracks and email template. PayOps case created.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks and talk track procedures for surcharging are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Anju Kuriakose",
@@ -81866,7 +81866,7 @@
     "solution_provided": "Confirmed firm is eligible. Specialist was told to go through the talk track. PayOps case created.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks and talk track procedures for surcharging are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Rome Omari",
@@ -82022,7 +82022,7 @@
     "solution_provided": "Firm is not currently eligible because they have a free processing promo applied until Feb 17, 2026.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks, including identifying active promotions that prevent surcharging enablement, are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Sohaib Naseem",
@@ -82390,7 +82390,7 @@
     "solution_provided": "Firm is high GPV and has a meeting already booked for Monday to discuss enablement.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook and standard procedures direct specialists to check for high GPV and previous bookings when handling surcharging inquiries.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Audrana Esho",
@@ -82761,7 +82761,7 @@
     "solution_provided": "Confirmed eligibility. Advised that the customer must call in to complete the required talk track for enablement.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "The notebook confirms that surcharging requires a phone interaction to go through mandatory talk tracks.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Gursumeet Kaur",
@@ -84248,7 +84248,7 @@
     "solution_provided": "Firm is eligible but high GPV; case handed off to the Solutions team for follow-up.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks and the requirement to hand off high GPV accounts to Solutions are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Cesar Jimenez",
@@ -84982,7 +84982,7 @@
     "solution_provided": "Confirmed firm is eligible. Specialist went through the talk track and sent the email template. Case submitted to PayOps.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "Standard eligibility checks and talk track procedures for surcharging are documented in the notebook.",
-    "why_notebook_cannot_solve": "Surcharging eligibility inquiry — requires human expertise",
+    "why_notebook_cannot_solve": "Surcharging eligibility inquiry \u2014 requires human expertise",
     "category": "Online Payments",
     "subcategory": "Clio Payments Setup",
     "specialist_asking": "Sienna Guo",
@@ -95283,7 +95283,7 @@
     "solution_time": "04:34 PM",
     "solution_date": "2026-01-15",
     "outside_hours": "N",
-    "issue_description_brief": "Clio Grow document text editor template is converting quotation marks and apostrophes into weird characters like â€œAttorneysâ€.",
+    "issue_description_brief": "Clio Grow document text editor template is converting quotation marks and apostrophes into weird characters like \u00e2\u20ac\u0153Attorneys\u00e2\u20ac.",
     "reason_for_help_needed": "Specialist could not replicate in demo and needed technical confirmation of the behavior and a fix.",
     "solution_provided": "Technical Escalation confirmed it sounds like text was copied from a source with hidden source code. Recommended deleting the words and typing them manually.",
     "notebook_solve_end_to_end": "Yes",
@@ -105233,7 +105233,7 @@
     "outside_hours": "N",
     "issue_description_brief": "Operating account verification failing for Truist Bank; rejected 5 times.",
     "reason_for_help_needed": "Verify Stripe error message details.",
-    "solution_provided": "Helper identified Stripe error: 'Information on the account doesn’t match information on the document'. Requested bank statement via GDrive to flag with PayOps.",
+    "solution_provided": "Helper identified Stripe error: 'Information on the account doesn\u2019t match information on the document'. Requested bank statement via GDrive to flag with PayOps.",
     "notebook_solve_end_to_end": "No",
     "why_notebook_can_solve": "N/A",
     "why_notebook_cannot_solve": "Specialist needs specific Stripe error strings (which aren't visible in AP for all failures) to guide the customer on what data mismatch is occurring.",
@@ -115186,7 +115186,7 @@
     "outside_hours": "N",
     "issue_description_brief": "Cx in Maine wants to enable surcharging; demands to speak with supervisor regarding fees.",
     "reason_for_help_needed": "State-level legal restriction (Maine) and fee dispute escalation.",
-    "solution_provided": "Maine law (Title 9-A M.R.S. § 8-509) prohibits surcharging. Case assigned to manager queue for fee discussion.",
+    "solution_provided": "Maine law (Title 9-A M.R.S. \u00a7 8-509) prohibits surcharging. Case assigned to manager queue for fee discussion.",
     "notebook_solve_end_to_end": "Yes",
     "why_notebook_can_solve": "Notebook identifies Maine as a restricted surcharging state and lists the specific statute.",
     "why_notebook_cannot_solve": "N/A",
@@ -127296,7 +127296,7 @@
     "did_specialist_try_notebook": "Yes",
     "did_helper_mention_notebook": "No",
     "did_helper_trigger_notebook_automation": "No",
-    "coaching_opportunity": "Product knowledge: Trust balance logic—reports are live reflections, and backdated edits modify historical totals.",
+    "coaching_opportunity": "Product knowledge: Trust balance logic\u2014reports are live reflections, and backdated edits modify historical totals.",
     "time_saved_minutes": 20,
     "customer_sentiment": "Negative",
     "specialist_sentiment": "Neutral",
@@ -130042,7 +130042,7 @@
     "did_specialist_try_notebook": "Unknown",
     "did_helper_mention_notebook": "No",
     "did_helper_trigger_notebook_automation": "No",
-    "coaching_opportunity": "Product knowledge: Clio Payments churn workflow—specialists should hand off immediately to Solutions.",
+    "coaching_opportunity": "Product knowledge: Clio Payments churn workflow\u2014specialists should hand off immediately to Solutions.",
     "time_saved_minutes": 5,
     "customer_sentiment": "Neutral",
     "specialist_sentiment": "Neutral",
@@ -130755,7 +130755,7 @@
     "did_specialist_try_notebook": "Unknown",
     "did_helper_mention_notebook": "No",
     "did_helper_trigger_notebook_automation": "No",
-    "coaching_opportunity": "Product knowledge: Clio Payments fee-deduction logic—fees follow the deposit account.",
+    "coaching_opportunity": "Product knowledge: Clio Payments fee-deduction logic\u2014fees follow the deposit account.",
     "time_saved_minutes": 5,
     "customer_sentiment": "Neutral",
     "specialist_sentiment": "Neutral",
@@ -131137,7 +131137,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2703,
     "case_number": "01207149",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673952834699](https://clio.slack.com/archives/C62SC017F/p1770673952834699)",
@@ -131188,7 +131188,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2704,
     "case_number": "01207190",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673885451199](https://clio.slack.com/archives/C62SC017F/p1770673885451199)",
@@ -131239,7 +131239,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2705,
     "case_number": "01207157",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673828471909](https://clio.slack.com/archives/C62SC017F/p1770673828471909)",
@@ -131292,7 +131292,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2706,
     "case_number": "01206992",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673424601819](https://clio.slack.com/archives/C62SC017F/p1770673424601819)",
@@ -131339,7 +131339,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2707,
     "case_number": "01207193",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673390884579](https://clio.slack.com/archives/C62SC017F/p1770673390884579)",
@@ -131389,7 +131389,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2708,
     "case_number": "01207151",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673381120419](https://clio.slack.com/archives/C62SC017F/p1770673381120419)",
@@ -131441,7 +131441,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2709,
     "case_number": "01207155",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673371264309](https://clio.slack.com/archives/C62SC017F/p1770673371264309)",
@@ -131492,7 +131492,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2710,
     "case_number": "01207180",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673138095529](https://clio.slack.com/archives/C62SC017F/p1770673138095529)",
@@ -131543,7 +131543,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2711,
     "case_number": "01207124",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770673106273789](https://clio.slack.com/archives/C62SC017F/p1770673106273789)",
@@ -131593,7 +131593,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2712,
     "case_number": "01207173",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770672916414699](https://clio.slack.com/archives/C62SC017F/p1770672916414699)",
@@ -131644,7 +131644,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2713,
     "case_number": "01207128",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770671614235909](https://clio.slack.com/archives/C62SC017F/p1770671614235909)",
@@ -131694,7 +131694,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2714,
     "case_number": "01207108",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770671432089229](https://clio.slack.com/archives/C62SC017F/p1770671432089229)",
@@ -131746,7 +131746,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2715,
     "case_number": "01207093",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770671189150569](https://clio.slack.com/archives/C62SC017F/p1770671189150569)",
@@ -131799,7 +131799,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2716,
     "case_number": "01206768",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770670546792929](https://clio.slack.com/archives/C62SC017F/p1770670546792929)",
@@ -131850,7 +131850,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2717,
     "case_number": "01206978",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770669225060399](https://clio.slack.com/archives/C62SC017F/p1770669225060399)",
@@ -131901,7 +131901,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2718,
     "case_number": "01207056",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770669069422459](https://clio.slack.com/archives/C62SC017F/p1770669069422459)",
@@ -131952,7 +131952,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2719,
     "case_number": "01207018",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770668827965429](https://clio.slack.com/archives/C62SC017F/p1770668827965429)",
@@ -132003,7 +132003,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2720,
     "case_number": "01207050",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770668782941689](https://clio.slack.com/archives/C62SC017F/p1770668782941689)",
@@ -132054,7 +132054,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2721,
     "case_number": "01206919",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770668704654589](https://clio.slack.com/archives/C62SC017F/p1770668704654589)",
@@ -132104,7 +132104,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2722,
     "case_number": "01206875",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770668686828529](https://clio.slack.com/archives/C62SC017F/p1770668686828529)",
@@ -132156,7 +132156,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2723,
     "case_number": "01207037",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770668539574829](https://clio.slack.com/archives/C62SC017F/p1770668539574829)",
@@ -132206,7 +132206,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2724,
     "case_number": "01206959",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770668138968319](https://clio.slack.com/archives/C62SC017F/p1770668138968319)",
@@ -132257,7 +132257,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2725,
     "case_number": "01206071",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770667697647519](https://clio.slack.com/archives/C62SC017F/p1770667697647519)",
@@ -132309,7 +132309,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2726,
     "case_number": "01206914",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770667102160649](https://clio.slack.com/archives/C62SC017F/p1770667102160649)",
@@ -132360,7 +132360,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2727,
     "case_number": "01206924",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770667081146329](https://clio.slack.com/archives/C62SC017F/p1770667081146329)",
@@ -132414,7 +132414,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2728,
     "case_number": "01206698",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770666898283049](https://clio.slack.com/archives/C62SC017F/p1770666898283049)",
@@ -132465,7 +132465,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2729,
     "case_number": "01206933",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770666456264969](https://clio.slack.com/archives/C62SC017F/p1770666456264969)",
@@ -132517,7 +132517,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2730,
     "case_number": "01206903",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770666122053329](https://clio.slack.com/archives/C62SC017F/p1770666122053329)",
@@ -132567,7 +132567,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2731,
     "case_number": "01206937",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665978159259](https://clio.slack.com/archives/C62SC017F/p1770665978159259)",
@@ -132620,7 +132620,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2732,
     "case_number": "01206868",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665904317139](https://clio.slack.com/archives/C62SC017F/p1770665904317139)",
@@ -132671,7 +132671,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2733,
     "case_number": "01206899",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665853164099](https://clio.slack.com/archives/C62SC017F/p1770665853164099)",
@@ -132722,7 +132722,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2734,
     "case_number": "01202827",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665793102509](https://clio.slack.com/archives/C62SC017F/p1770665793102509)",
@@ -132773,7 +132773,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2735,
     "case_number": "01206927",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665701146319](https://clio.slack.com/archives/C62SC017F/p1770665701146319)",
@@ -132824,7 +132824,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2736,
     "case_number": "01206867",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665485594939](https://clio.slack.com/archives/C62SC017F/p1770665485594939)",
@@ -132874,7 +132874,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2737,
     "case_number": "01206689",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665282641979](https://clio.slack.com/archives/C62SC017F/p1770665282641979)",
@@ -132927,7 +132927,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2738,
     "case_number": "01206886",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665258050369](https://clio.slack.com/archives/C62SC017F/p1770665258050369)",
@@ -132978,7 +132978,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2739,
     "case_number": "01206917",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665226264599](https://clio.slack.com/archives/C62SC017F/p1770665226264599)",
@@ -133025,7 +133025,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2740,
     "case_number": "01206910",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770665149211219](https://clio.slack.com/archives/C62SC017F/p1770665149211219)",
@@ -133075,7 +133075,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2741,
     "case_number": "01206862",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770664905644229](https://clio.slack.com/archives/C62SC017F/p1770664905644229)",
@@ -133126,7 +133126,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2742,
     "case_number": "01206878",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770664862559339](https://clio.slack.com/archives/C62SC017F/p1770664862559339)",
@@ -133177,7 +133177,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2743,
     "case_number": "01196834",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770664655201139](https://clio.slack.com/archives/C62SC017F/p1770664655201139)",
@@ -133227,7 +133227,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2744,
     "case_number": "01206801",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770664584241749](https://clio.slack.com/archives/C62SC017F/p1770664584241749)",
@@ -133277,7 +133277,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2745,
     "case_number": "01206798",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770664462502669](https://clio.slack.com/archives/C62SC017F/p1770664462502669)",
@@ -133328,7 +133328,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2746,
     "case_number": "N/A",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770663792715839](https://clio.slack.com/archives/C62SC017F/p1770663792715839)",
@@ -133380,7 +133380,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2747,
     "case_number": "01206820",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770663632677339](https://clio.slack.com/archives/C62SC017F/p1770663632677339)",
@@ -133432,7 +133432,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2748,
     "case_number": "01206817",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770663578435289](https://clio.slack.com/archives/C62SC017F/p1770663578435289)",
@@ -133482,7 +133482,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2749,
     "case_number": "N/A",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770663539168319](https://clio.slack.com/archives/C62SC017F/p1770663539168319)",
@@ -133535,7 +133535,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2750,
     "case_number": "01206816",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770663511351089](https://clio.slack.com/archives/C62SC017F/p1770663511351089)",
@@ -133638,7 +133638,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2752,
     "case_number": "01206779",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770663276331859](https://clio.slack.com/archives/C62SC017F/p1770663276331859)",
@@ -133690,7 +133690,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2753,
     "case_number": "01206760",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770662276339189](https://clio.slack.com/archives/C62SC017F/p1770662276339189)",
@@ -133740,7 +133740,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2754,
     "case_number": "01206747",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770662191639519](https://clio.slack.com/archives/C62SC017F/p1770662191639519)",
@@ -133791,7 +133791,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2755,
     "case_number": "01206723",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770662071056669](https://clio.slack.com/archives/C62SC017F/p1770662071056669)",
@@ -133848,7 +133848,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2756,
     "case_number": "01206705",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770661598746669](https://clio.slack.com/archives/C62SC017F/p1770661598746669)",
@@ -133899,7 +133899,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2757,
     "case_number": "01206624",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770661596119519](https://clio.slack.com/archives/C62SC017F/p1770661596119519)",
@@ -133949,7 +133949,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2758,
     "case_number": "01206661",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770661439631139](https://clio.slack.com/archives/C62SC017F/p1770661439631139)",
@@ -134000,7 +134000,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2759,
     "case_number": "01206733",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770661406412669](https://clio.slack.com/archives/C62SC017F/p1770661406412669)",
@@ -134050,7 +134050,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2760,
     "case_number": "01206718",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770661247750999](https://clio.slack.com/archives/C62SC017F/p1770661247750999)",
@@ -134100,7 +134100,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2761,
     "case_number": "01206691",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770660961188459](https://clio.slack.com/archives/C62SC017F/p1770660961188459)",
@@ -134150,7 +134150,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2762,
     "case_number": "01206672",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770660411182359](https://clio.slack.com/archives/C62SC017F/p1770660411182359)",
@@ -134200,7 +134200,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2763,
     "case_number": "01206681",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770660381014649](https://clio.slack.com/archives/C62SC017F/p1770660381014649)",
@@ -134250,7 +134250,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2764,
     "case_number": "01206677",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770660313799699](https://clio.slack.com/archives/C62SC017F/p1770660313799699)",
@@ -134300,7 +134300,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2765,
     "case_number": "01206652",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770659847404089](https://clio.slack.com/archives/C62SC017F/p1770659847404089)",
@@ -134350,7 +134350,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2766,
     "case_number": "01206626",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770659577749159](https://clio.slack.com/archives/C62SC017F/p1770659577749159)",
@@ -134400,7 +134400,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2767,
     "case_number": "01206438",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770659546744739](https://clio.slack.com/archives/C62SC017F/p1770659546744739)",
@@ -134454,7 +134454,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2768,
     "case_number": "01206603",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770659030505589](https://clio.slack.com/archives/C62SC017F/p1770659030505589)",
@@ -134504,7 +134504,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2769,
     "case_number": "01206595",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658833270949](https://clio.slack.com/archives/C62SC017F/p1770658833270949)",
@@ -134555,7 +134555,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Support"
   },
-{
+  {
     "swarm_number": 2770,
     "case_number": "01206598",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658427479399](https://clio.slack.com/archives/C62SC017F/p1770658427479399)",
@@ -134605,7 +134605,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2771,
     "case_number": "01206591",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658397691219](https://clio.slack.com/archives/C62SC017F/p1770658397691219)",
@@ -134655,7 +134655,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2772,
     "case_number": "01206587",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658271057269](https://clio.slack.com/archives/C62SC017F/p1770658271057269)",
@@ -134705,7 +134705,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2773,
     "case_number": "01206494",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658124849239](https://clio.slack.com/archives/C62SC017F/p1770658124849239)",
@@ -134757,7 +134757,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2774,
     "case_number": "01206588",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658122549089](https://clio.slack.com/archives/C62SC017F/p1770658122549089)",
@@ -134807,7 +134807,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2775,
     "case_number": "01206493",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770658028510999](https://clio.slack.com/archives/C62SC017F/p1770658028510999)",
@@ -134857,7 +134857,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2776,
     "case_number": "01206547",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770657546316169](https://clio.slack.com/archives/C62SC017F/p1770657546316169)",
@@ -134907,7 +134907,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2777,
     "case_number": "01206542",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770657445790039](https://clio.slack.com/archives/C62SC017F/p1770657445790039)",
@@ -134957,7 +134957,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2778,
     "case_number": "01206478",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770657255362999](https://clio.slack.com/archives/C62SC017F/p1770657255362999)",
@@ -135007,7 +135007,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2779,
     "case_number": "01206512",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770657131579209](https://clio.slack.com/archives/C62SC017F/p1770657131579209)",
@@ -135057,7 +135057,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2780,
     "case_number": "01206516",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770657105545609](https://clio.slack.com/archives/C62SC017F/p1770657105545609)",
@@ -135107,7 +135107,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2781,
     "case_number": "01206507",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770657102865789](https://clio.slack.com/archives/C62SC017F/p1770657102865789)",
@@ -135157,7 +135157,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2782,
     "case_number": "01206503",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656660542249](https://clio.slack.com/archives/C62SC017F/p1770656660542249)",
@@ -135207,7 +135207,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2783,
     "case_number": "01206497",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656626583729](https://clio.slack.com/archives/C62SC017F/p1770656626583729)",
@@ -135259,7 +135259,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2784,
     "case_number": "01206495",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656608818419](https://clio.slack.com/archives/C62SC017F/p1770656608818419)",
@@ -135309,7 +135309,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2785,
     "case_number": "01206499",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656504982769](https://clio.slack.com/archives/C62SC017F/p1770656504982769)",
@@ -135359,7 +135359,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2786,
     "case_number": "01206506",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656464955799](https://clio.slack.com/archives/C62SC017F/p1770656464955799)",
@@ -135409,7 +135409,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2787,
     "case_number": "01206470",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656320941349](https://clio.slack.com/archives/C62SC017F/p1770656320941349)",
@@ -135459,7 +135459,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2788,
     "case_number": "01206454",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770656243880069](https://clio.slack.com/archives/C62SC017F/p1770656243880069)",
@@ -135511,7 +135511,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2789,
     "case_number": "01206307",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770655974503599](https://clio.slack.com/archives/C62SC017F/p1770655974503599)",
@@ -135563,7 +135563,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2790,
     "case_number": "01206424",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770655591843489](https://clio.slack.com/archives/C62SC017F/p1770655591843489)",
@@ -135614,7 +135614,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2791,
     "case_number": "01206437",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770655547209789](https://clio.slack.com/archives/C62SC017F/p1770655547209789)",
@@ -135665,7 +135665,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2792,
     "case_number": "01206451",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770655374127379](https://clio.slack.com/archives/C62SC017F/p1770655374127379)",
@@ -135715,7 +135715,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2793,
     "case_number": "01206448",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770655372250889](https://clio.slack.com/archives/C62SC017F/p1770655372250889)",
@@ -135765,7 +135765,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2794,
     "case_number": "01206405",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770655163067659](https://clio.slack.com/archives/C62SC017F/p1770655163067659)",
@@ -135815,7 +135815,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2795,
     "case_number": "01206427",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770654890969269](https://clio.slack.com/archives/C62SC017F/p1770654890969269)",
@@ -135865,7 +135865,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2796,
     "case_number": "01206401",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770654811588109](https://clio.slack.com/archives/C62SC017F/p1770654811588109)",
@@ -135916,7 +135916,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Phone"
   },
-{
+  {
     "swarm_number": 2797,
     "case_number": "01206417",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770654703990699](https://clio.slack.com/archives/C62SC017F/p1770654703990699)",
@@ -135966,7 +135966,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "Chat"
   },
-{
+  {
     "swarm_number": 2798,
     "case_number": "01206395",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770654320663269](https://clio.slack.com/archives/C62SC017F/p1770654320663269)",
@@ -136016,7 +136016,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2799,
     "case_number": "01206402",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770654181798299](https://clio.slack.com/archives/C62SC017F/p1770654181798299)",
@@ -136066,7 +136066,7 @@
     "helper_marked_undetailed": false,
     "swarm_type": "N/A"
   },
-{
+  {
     "swarm_number": 2800,
     "case_number": "01206388",
     "slack_url": "[https://clio.slack.com/archives/C62SC017F/p1770653814814109](https://clio.slack.com/archives/C62SC017F/p1770653814814109)",
