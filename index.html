@@ -2228,20 +2228,20 @@
 
         /* Search Bar */
         .search-container {
-            max-width: 600px;
-            margin: 0 auto 40px;
+            flex: 1;
+            max-width: 400px;
             position: relative;
-            z-index: 100;
+            z-index: 1000;
         }
 
         .search-input {
             width: 100%;
-            padding: 16px 24px;
-            font-size: 16px;
+            padding: 8px 16px;
+            font-size: 14px;
             border: 1px solid rgba(0, 0, 0, 0.1);
             border-radius: 99px;
             background: white;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
             transition: all 0.2s;
         }
 
@@ -2344,12 +2344,7 @@
             <p>Support Intelligence Dashboard</p>
         </header>
 
-        <!-- Search Bar -->
-        <div class="search-container">
-            <input type="text" id="expertSearch" class="search-input"
-                placeholder="Search swarms (e.g. 'rounding decimal'...)" autocomplete="off">
-            <div id="searchSuggestions" class="search-suggestions"></div>
-        </div>
+
 
 
         <!-- Key Metric Banner -->
@@ -2389,10 +2384,17 @@
             <div class="chart-card full-width daily-chart-card">
                 <div class="chart-header">
                     <div
-                        style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                        style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; width: 100%; margin-bottom: 16px;">
                         <div>
                             <div class="chart-title">Daily Performance Trends</div>
                             <div class="chart-subtitle">Key metrics over time & swarm category breakdown</div>
+                        </div>
+
+                        <!-- Search Bar (Relocated) -->
+                        <div class="search-container" style="margin: 0;">
+                            <input type="text" id="expertSearch" class="search-input" placeholder="Search swarms..."
+                                autocomplete="off">
+                            <div id="searchSuggestions" class="search-suggestions"></div>
                         </div>
                     </div>
 
