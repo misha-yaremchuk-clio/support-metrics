@@ -36,6 +36,10 @@
             box-sizing: border-box;
         }
 
+        body.locked {
+            overflow: hidden;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: var(--bg-primary);
@@ -62,6 +66,68 @@
             letter-spacing: -0.02em;
             color: var(--text-primary);
             margin-bottom: 8px;
+        }
+
+        /* Login Overlay */
+        #login-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(245, 245, 247, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 99999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .login-card h2 {
+            margin-bottom: 24px;
+            font-size: 24px;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 1px solid #d2d2d7;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .login-btn {
+            background: #0071e3;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 99px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .login-btn:hover {
+            background: #0077ed;
+        }
+
+        .error-msg {
+            color: #ff3b30;
+            margin-top: 16px;
+            font-size: 14px;
+            display: none;
         }
 
         header p {
@@ -2163,6 +2229,45 @@
 </head>
 
 <body>
+    <!-- Login Overlay -->
+    <div id="login-overlay">
+        <div class="login-card">
+            <h2>Swarm Analytics</h2>
+            <input type="text" id="username" class="login-input" placeholder="Username">
+            <input type="password" id="password" class="login-input" placeholder="Password">
+            <button class="login-btn" onclick="checkLogin()">Sign In</button>
+            <div id="login-error" class="error-msg">Invalid credentials</div>
+        </div>
+    </div>
+
+    <script>
+        function checkLogin() {
+            const u = document.getElementById('username').value;
+            const p = document.getElementById('password').value;
+            if (u === 'admin' && p === 'cliothemis2026') {
+                document.getElementById('login-overlay').style.display = 'none';
+                document.body.classList.remove('locked');
+                localStorage.setItem('swarm_auth', 'true');
+            } else {
+                document.getElementById('login-error').style.display = 'block';
+            }
+        }
+
+        // Check session immediately
+        if (localStorage.getItem('swarm_auth') === 'true') {
+            document.getElementById('login-overlay').style.display = 'none';
+        } else {
+            document.body.classList.add('locked');
+        }
+
+        // Allow Enter key
+        document.addEventListener('keypress', function (e) {
+            if (e.key === 'Enter' && document.getElementById('login-overlay').style.display !== 'none') {
+                checkLogin();
+            }
+        });
+    </script>
+
     <div class="container">
         <header>
             <h1>Swarm Analytics</h1>
